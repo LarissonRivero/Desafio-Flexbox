@@ -5,8 +5,6 @@
 }
 .container{
     display: flex;
-    background-color: aqua;
-    min-height: 100vh;
 }
 
 body{
@@ -14,7 +12,7 @@ body{
 }
 
 .icon{
-    margin: 15px 5px 5px 55px;
+    margin: 15px 5px 5px 30px;
 }
 
 .fa-solid{
@@ -27,16 +25,25 @@ body{
     width: 50px;
     height: 50px;
 }
-  .list{
+
+.list{
     list-style: none;
     padding: 5px;
 }
 
 .list .list-item{
     display: flex;
-    }
+}
 
-    .boton{
-        text-align: center;
-        flex-direction: column;
-    }
+.boton{
+    text-align: center;
+    flex-direction: column;
+}
+
+.container-fluid{
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    margin-top: 40%;
+}
+
