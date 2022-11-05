@@ -3,14 +3,71 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    display: flex;
-}
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
+.gral{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(121, 116, 116);
+}
+.container_fluid{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(121, 116, 116);
+}
+
+.list-contac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nombre{
+    margin-top: 12px;
+}
+
+hr{
+    color: rgb(230, 219, 219);
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton .btn{
+    color: white;
+    margin: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(188, 144, 211);
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.list-item__content{
+    margin: 5px;
+}
+
+.container_fluid2{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .icon{
     margin: 15px 5px 5px 30px;
 }
@@ -31,19 +88,4 @@ body{
     padding: 5px;
 }
 
-.list .list-item{
-    display: flex;
-}
-
-.boton{
-    text-align: center;
-    flex-direction: column;
-}
-
-.container-fluid{
-    display: flex;  
-    flex-direction: column;  
-    align-items: center;
-    margin-top: 40%;
-}
 
