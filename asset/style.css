@@ -10,13 +10,13 @@ body{
 
 .gral{
     display: flex;
-    flex-direction: row;
     margin: 20px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(121, 116, 116);
 }
 .container_fluid{
+    flex-direction: column;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(121, 116, 116);
